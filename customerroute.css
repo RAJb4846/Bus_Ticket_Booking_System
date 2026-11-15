@@ -1,0 +1,49 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("bus3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    margin:0px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    font-size:20px;
+    background-color:#fff;
+
+}
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.book{
+    padding: 20px;
+    background: #030934;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.book a{
+    padding: 20px;
+    background: #030934;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.book:hover {
+    padding: 20px;
+    background:black;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

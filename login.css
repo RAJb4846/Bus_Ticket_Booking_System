@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+   
+   
+    background-image: url(bus3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav
+{
+  overflow: hidden;
+  background-color: #333;
+}
+.login-form
+{
+width: 300px;
+box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+background: #fff;
+padding: 20px;
+margin: 8% auto 0;
+text-align: center;
+}
+.login-form h1
+{
+color:#000000;
+margin-bottom:30px;
+}
+.login-form i{
+   
+    margin-top:-40px;
+    background:none;
+    color:#1c8adb;
+}
+.input-box
+{
+border-radius:20px;
+padding:10px;
+margin:10px 0;
+width:100%;
+border:1px solid black;
+outline:none;
+}
+.login-form a .signup-btn {
+    background-color: #1c8adb;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.login-btn
+{
+background-color:#21afde;
+color:#fff;
+width:100%;
+padding:10px;
+border-radius:20px;
+font-size:15px;
+margin:10px 0;
+border:none;
+outline:none;
+cursor:pointer;
+}
+
+.forgot-btn {
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.or
+{
+background:#fff;
+width:30px;
+margin:-19px auto 10px;
+}
+
+nav a
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+ nav a:hover 
+{
+  background-color:#ddd;
+  color: black;
+}
+
+ nav .dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+    nav .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    nav a:hover, nav .dropdown:hover .dropbtn {
+        background-color: #ddd;
+        color: black;
+    }
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    nav .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        nav .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+/*.................RESET PASSWORD..........................*/
+.popup-container{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    display:none;
+}
+.popup-container .forgot-popup{
+    background-color:#fff;
+    width:350px;
+    border-radius:5px;
+    padding:20px 25px 30px 25px;
+}
+.popup-container .forgot-popup h2{
+     display:flex;
+     flex-direction:row;
+     align-items:center;
+     justify-content:space-between;
+     margin-bottom:30px;
+     color:#30475e;
+ }
+
+.popup-container .forgot-popup .xbutton{
+   
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+ }
+
+   .popup-container .forgot-popup input{
+        width:100%;
+        margin-bottom:20px;
+        background-color:transparent;
+        border:none;
+        border-bottom:2px solid #30475e;
+        border-radius:0;
+        padding:5px 0;
+        font-weight:500;
+        font-size:14px;
+        outline:none;
+    }
+.popup-container .forgot-popup .reset-btn {
+    font-weight: 500;
+    font-style: 20px;
+    color: white;
+    background-color: #30475e;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+/*...............................................*/
+footer {
+    
+    background-color: #1b2330;
+    color: white;
+    position: relative;
+    
+}
+footer .codes{
+    display:flex;
+}
+    footer .codes .link {
+        
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        width: 200px;
+    }
+    footer .codes .link h4 {
+        padding:14px 16px;
+        color: #f2f2f2;
+        font-size: 20px;
+        
+    }
+footer .codes .link a {
+    padding:14px 16px;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+footer .codes .link a:hover{
+    color:blue;
+}
